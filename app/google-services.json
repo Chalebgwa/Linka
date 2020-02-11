@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1066261605747",
+    "firebase_url": "https://linka2-c94ca.firebaseio.com",
+    "project_id": "linka2-c94ca",
+    "storage_bucket": "linka2-c94ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066261605747:android:b570a259b58fe937",
+        "android_client_info": {
+          "package_name": "com.nest.linka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066261605747-hmaogbviul5sob2pb8cft4uput1qkicp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nest.linka",
+            "certificate_hash": "33151b9d8a09523a2d5b5b13e5a0292ab2fcded1"
+          }
+        },
+        {
+          "client_id": "1066261605747-8nsl3aqe7v47c4jop80l9hkh0n0pmn82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcV5FZT6FsBVbNK0pdDz3ze-BNaz5smW0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066261605747-8nsl3aqe7v47c4jop80l9hkh0n0pmn82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
