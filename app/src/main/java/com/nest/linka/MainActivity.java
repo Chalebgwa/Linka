@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import com.nest.linka.Inbox.Inbox;
 import com.nest.linka.Util.User;
+import com.nest.linka.ServicesActivity;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
 
@@ -35,7 +36,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int itemId = item.getItemId();
         if(itemId==R.id.inbox){
-
             Fragment inbox = new Inbox();
             Bundle bundle = new Bundle();
             bundle.putString("email","test");
@@ -43,7 +43,9 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction().replace(R.id.main_frame,inbox).commit();
-
+        } else if(itemId==R.id.home){
+            Intent intent = new Intent(this, ServicesActivity.class);
+            startActivity(intent);
         }
 
         return true;
