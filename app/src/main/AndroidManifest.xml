@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".ServicesActivity" />
         <activity android:name=".Inbox.ThreadIntent" />
         <activity android:name=".RegisterActivity"></activity>
     </application>
